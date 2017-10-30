@@ -23,6 +23,13 @@
   background-color: green;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
 h1, h2, h3 {
   font-size: 1.75em;
   position: relative;
@@ -30,13 +37,9 @@ h1, h2, h3 {
 }
 
 body {
-  min-width: 480px;
-  text-align: center;
-}
-
-#popover {
   width: 100%;
   text-align: center;
+  border: 1px solid black;
 }
 
 header {
@@ -51,27 +54,23 @@ nav {
   background-color: blue;
 }
 
-#banners > article {
-  width: 100%;
+#c, #d {
   height: 125px;
+  width: 100%;
+  float: left;
+  border: 1px solid black;
 }
 
-#blocks > article {
+#e, #f, #g, #h {
   display: inline-block;
   height: 250px;
-  width: 50%;
+  width: 25%;
+  float: left;
+  border: 1px solid black;
 }
-
-#f, #h {
-  float: right;
-}
-
 
 footer {
   height: 80px;
-  min-width: 480px;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  margin: 0 auto;
+  width: 100%;
+  border: 1px solid black;
 }
